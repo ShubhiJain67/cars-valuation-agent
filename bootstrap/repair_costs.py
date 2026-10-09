@@ -3,7 +3,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from config import REPAIR_COSTS_FILE
 from constants.parts import PARTS
 from llm.repair_costs import search_repair_cost
-from services.repair_cost import is_repair_cost_valid, search_repair_cost
+from services.repair_cost import is_repair_cost_valid
 from utils.file_parser import get_json_file, write_to_json
 
 BATCH_SIZE = 5

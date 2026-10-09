@@ -1,9 +1,8 @@
-from pydantic import BaseModel
 from langchain_core.messages import HumanMessage, SystemMessage
 
 from config import WEB_SEARCH_MODEL
 from external.llm.openai import web_search
-from llm.parts import CATEGORIES, PARTS
+from constants.parts import CATEGORIES
 from models.repair_costs import RepairCosts
 
 SYSTEM_MESSAGE = """

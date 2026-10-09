@@ -9,4 +9,6 @@ def setup():
     # load_data_in_vector_db(clean_data)
     prepare_repair_costs()
 
-setup()
+
+if __name__ == "__main__":
+    setup()
