@@ -1,5 +1,3 @@
-from typing import Literal
-
 # (name, category, place)
 PARTS = {
     # outside: body
@@ -60,6 +58,3 @@ CATEGORIES = {   # category -> what severity 1, 2 and 3 mean as a repair
     "control":    ("minor fix or clean", "replace the part", "replace the whole assembly"),
     "engine_bay": ("clean up or fix a small part", "repair a leak or replace a small component", "major repair"),
 }
-
-Part = Literal[tuple(PARTS)]
-DamageType = Literal["scratch", "dent", "crack", "broken", "missing", "torn", "stain", "worn", "rust", "faded", "leak"]
