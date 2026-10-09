@@ -1,3 +1,14 @@
+"""
+Image layer: turns uploaded car photos into the `damages` dict used for pricing.
+
+1. Load each photo: must be a real JPEG/PNG/WebP, fixed for phone rotation, shrunk to save tokens.
+2. Number check (one vision call per photo, in parallel): the registration number must be clearly
+   readable on the plate or on a piece of paper. Photos without one are discarded.
+3. The car's number is taken from the number plate itself (a number on paper can't set it).
+   Every other photo, plate or paper, must show that same number or it is discarded.
+   If no photo shows the plate, no photo is accepted.
+4. Damage detection (one vision call with all kept photos): returns part -> severity.
+"""
 import base64
 import io
 import re
@@ -22,18 +33,20 @@ REGISTRATION_PATTERNS = (
 )
 
 
-def process_images(paths: list[str | Path]) -> dict:
-    if not paths:
+def process_images(images: list) -> dict:
+    """images: file paths, or (name, bytes) pairs for uploads."""
+    if not images:
         raise ValueError("no images uploaded")
-    if len(paths) > MAX_IMAGES:
+    if len(images) > MAX_IMAGES:
         raise ValueError(f"upload at most {MAX_IMAGES} images")
 
     rejected, loaded = [], []
-    for path in paths:
+    for item in images:
+        name, data = item if isinstance(item, tuple) else (str(item), None)
         try:
-            loaded.append((str(path), _load(path)))
+            loaded.append((name, _load(data if data is not None else Path(item))))
         except ValueError as e:
-            rejected.append({"image": str(path), "reason": str(e)})
+            rejected.append({"image": name, "reason": str(e)})
 
     # Stage 1: every photo must show a readable registration number
     with ThreadPoolExecutor(max_workers=4) as pool:
@@ -54,7 +67,8 @@ def process_images(paths: list[str | Path]) -> dict:
     plate_numbers = Counter(n for _, _, n, shown_on in with_number if shown_on == "number_plate")
     if not plate_numbers:
         for path, _, number, _ in with_number:
-            rejected.append({"image": path, "reason": f"number {number} is only on paper; at least one photo must show the number plate"})
+            rejected.append({"image": path, "reason": f"number {number} is only on paper; "
+                                                      "at least one photo must show the number plate"})
         return {"registration_number": None, "accepted": [], "rejected": rejected, "damages": {}, "findings": []}
     registration_number, _ = plate_numbers.most_common(1)[0]
     accepted = []
@@ -98,15 +112,16 @@ def normalise_number(raw: str | None) -> str | None:
     return number if any(p.match(number) for p in REGISTRATION_PATTERNS) else None
 
 
-def _load(path) -> str:
-    """Validate, rotate and shrink one photo; returns a base64 JPEG data URL."""
-    path = Path(path)
-    if not path.is_file():
-        raise ValueError("file not found")
-    if path.stat().st_size > MAX_FILE_BYTES:
+def _load(source: Path | bytes) -> str:
+    """Validate, rotate and shrink one photo (a path or raw bytes); returns a base64 JPEG data URL."""
+    if isinstance(source, Path):
+        if not source.is_file():
+            raise ValueError("file not found")
+        source = source.read_bytes()
+    if len(source) > MAX_FILE_BYTES:
         raise ValueError(f"file larger than {MAX_FILE_BYTES // (1024 * 1024)} MB")
     try:
-        with Image.open(path) as image:
+        with Image.open(io.BytesIO(source)) as image:
             if image.format not in ALLOWED_FORMATS:
                 raise ValueError(f"unsupported format {image.format}; use JPEG, PNG or WebP")
             image = ImageOps.exif_transpose(image).convert("RGB")  # phone photos are often stored rotated
