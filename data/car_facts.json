@@ -1,0 +1,884 @@
+{
+    "Hyundai Creta": {
+        "is_real_model": true,
+        "first_year": 2015,
+        "last_year": null,
+        "ex_showroom_min": 1073000,
+        "ex_showroom_max": 2020000
+    },
+    "Mahindra TUV 300 PLUS": {
+        "is_real_model": true,
+        "first_year": 2018,
+        "last_year": 2020,
+        "ex_showroom_min": 992000,
+        "ex_showroom_max": 1142000
+    },
+    "Maruti Vitara Brezza": {
+        "is_real_model": true,
+        "first_year": 2016,
+        "last_year": 2022,
+        "ex_showroom_min": 784000,
+        "ex_showroom_max": 1396000
+    },
+    "Volkswagen T-ROC": {
+        "is_real_model": true,
+        "first_year": 2020,
+        "last_year": 2021,
+        "ex_showroom_min": 1999000,
+        "ex_showroom_max": 2135000
+    },
+    "Maruti BREZZA": {
+        "is_real_model": true,
+        "first_year": 2016,
+        "last_year": null,
+        "ex_showroom_min": 869000,
+        "ex_showroom_max": 1414000
+    },
+    "Honda City": {
+        "is_real_model": true,
+        "first_year": 1998,
+        "last_year": null,
+        "ex_showroom_min": 1195000,
+        "ex_showroom_max": 1607000
+    },
+    "Honda BR-V": {
+        "is_real_model": true,
+        "first_year": 2016,
+        "last_year": 2020,
+        "ex_showroom_min": 953000,
+        "ex_showroom_max": 1383000
+    },
+    "KIA SELTOS": {
+        "is_real_model": true,
+        "first_year": 2019,
+        "last_year": null,
+        "ex_showroom_min": null,
+        "ex_showroom_max": null
+    },
+    "Maruti Swift": {
+        "is_real_model": true,
+        "first_year": 2005,
+        "last_year": null,
+        "ex_showroom_min": 649000,
+        "ex_showroom_max": 964000
+    },
+    "Nissan MAGNITE": {
+        "is_real_model": true,
+        "first_year": 2020,
+        "last_year": null,
+        "ex_showroom_min": 562000,
+        "ex_showroom_max": 1076000
+    },
+    "Hyundai GRAND I10 NIOS": {
+        "is_real_model": true,
+        "first_year": 2019,
+        "last_year": null,
+        "ex_showroom_min": 547000,
+        "ex_showroom_max": 792000
+    },
+    "Maruti Ritz": {
+        "is_real_model": true,
+        "first_year": 2009,
+        "last_year": 2017,
+        "ex_showroom_min": 429000,
+        "ex_showroom_max": 658000
+    },
+    "Mahindra Kuv100": {
+        "is_real_model": true,
+        "first_year": 2016,
+        "last_year": 2023,
+        "ex_showroom_min": 618000,
+        "ex_showroom_max": 784000
+    },
+    "Mahindra BOLERO NEO": {
+        "is_real_model": true,
+        "first_year": 2021,
+        "last_year": null,
+        "ex_showroom_min": 849000,
+        "ex_showroom_max": 1049000
+    },
+    "Ford Figo Aspire": {
+        "is_real_model": true,
+        "first_year": 2015,
+        "last_year": 2021,
+        "ex_showroom_min": 728000,
+        "ex_showroom_max": 873000
+    },
+    "Mahindra Bolero": {
+        "is_real_model": true,
+        "first_year": 2000,
+        "last_year": null,
+        "ex_showroom_min": 849000,
+        "ex_showroom_max": 969000
+    },
+    "Maruti Alto 800": {
+        "is_real_model": true,
+        "first_year": 2012,
+        "last_year": 2023,
+        "ex_showroom_min": 354000,
+        "ex_showroom_max": 513000
+    },
+    "Datsun Go": {
+        "is_real_model": true,
+        "first_year": 2014,
+        "last_year": 2022,
+        "ex_showroom_min": 402000,
+        "ex_showroom_max": 651000
+    },
+    "MG HECTOR PLUS": {
+        "is_real_model": true,
+        "first_year": 2020,
+        "last_year": null,
+        "ex_showroom_min": 1750000,
+        "ex_showroom_max": 2367000
+    },
+    "Jeep GRAND CHEROKEE": {
+        "is_real_model": true,
+        "first_year": 2016,
+        "last_year": null,
+        "ex_showroom_min": 6750000,
+        "ex_showroom_max": 6750000
+    },
+    "Maruti XL6": {
+        "is_real_model": true,
+        "first_year": 2019,
+        "last_year": null,
+        "ex_showroom_min": 1161000,
+        "ex_showroom_max": 1477000
+    },
+    "Ford Ecosport": {
+        "is_real_model": true,
+        "first_year": 2013,
+        "last_year": 2021,
+        "ex_showroom_min": 819000,
+        "ex_showroom_max": 1169000
+    },
+    "Ford New Figo": {
+        "is_real_model": true,
+        "first_year": 2010,
+        "last_year": 2021,
+        "ex_showroom_min": 582000,
+        "ex_showroom_max": 982000
+    },
+    "Maruti Alto": {
+        "is_real_model": true,
+        "first_year": 2000,
+        "last_year": null,
+        "ex_showroom_min": 369000,
+        "ex_showroom_max": 545000
+    },
+    "Hyundai i20": {
+        "is_real_model": true,
+        "first_year": 2008,
+        "last_year": null,
+        "ex_showroom_min": null,
+        "ex_showroom_max": null
+    },
+    "Renault Kwid": {
+        "is_real_model": true,
+        "first_year": 2015,
+        "last_year": null,
+        "ex_showroom_min": null,
+        "ex_showroom_max": null
+    },
+    "Hyundai NEW I20 N LINE": {
+        "is_real_model": true,
+        "first_year": 2021,
+        "last_year": null,
+        "ex_showroom_min": 999000,
+        "ex_showroom_max": 1256000
+    },
+    "Honda Jazz": {
+        "is_real_model": true,
+        "first_year": 2009,
+        "last_year": 2023,
+        "ex_showroom_min": 801000,
+        "ex_showroom_max": 1032000
+    },
+    "Datsun Redi Go": {
+        "is_real_model": true,
+        "first_year": 2016,
+        "last_year": 2022,
+        "ex_showroom_min": 383000,
+        "ex_showroom_max": 495000
+    },
+    "Tata Tiago": {
+        "is_real_model": true,
+        "first_year": 2016,
+        "last_year": null,
+        "ex_showroom_min": 499000,
+        "ex_showroom_max": 849000
+    },
+    "Skoda KUSHAQ": {
+        "is_real_model": true,
+        "first_year": 2021,
+        "last_year": null,
+        "ex_showroom_min": 1089000,
+        "ex_showroom_max": 1879000
+    },
+    "Mahindra XUV 3OO": {
+        "is_real_model": true,
+        "first_year": 2019,
+        "last_year": 2024,
+        "ex_showroom_min": 799000,
+        "ex_showroom_max": 1476000
+    },
+    "Hyundai NEW I20": {
+        "is_real_model": true,
+        "first_year": 2008,
+        "last_year": null,
+        "ex_showroom_min": 704000,
+        "ex_showroom_max": 1125000
+    },
+    "Hyundai New Elantra": {
+        "is_real_model": true,
+        "first_year": 2004,
+        "last_year": 2021,
+        "ex_showroom_min": 1786000,
+        "ex_showroom_max": 2113000
+    },
+    "Volkswagen Ameo": {
+        "is_real_model": true,
+        "first_year": 2016,
+        "last_year": 2020,
+        "ex_showroom_min": 562000,
+        "ex_showroom_max": 999000
+    },
+    "Mahindra MARAZZO": {
+        "is_real_model": true,
+        "first_year": 2018,
+        "last_year": 2025,
+        "ex_showroom_min": 1459000,
+        "ex_showroom_max": 1700000
+    },
+    "Toyota Etios": {
+        "is_real_model": true,
+        "first_year": 2010,
+        "last_year": 2020,
+        "ex_showroom_min": 605000,
+        "ex_showroom_max": 876000
+    },
+    "Maruti A Star": {
+        "is_real_model": true,
+        "first_year": 2008,
+        "last_year": 2014,
+        "ex_showroom_min": 382000,
+        "ex_showroom_max": 476000
+    },
+    "Tata PUNCH": {
+        "is_real_model": true,
+        "first_year": 2021,
+        "last_year": null,
+        "ex_showroom_min": 550000,
+        "ex_showroom_max": 930000
+    },
+    "Maruti New Wagon-R": {
+        "is_real_model": true,
+        "first_year": 1999,
+        "last_year": null,
+        "ex_showroom_min": 499000,
+        "ex_showroom_max": 695000
+    },
+    "Mahindra Scorpio": {
+        "is_real_model": true,
+        "first_year": 2002,
+        "last_year": null,
+        "ex_showroom_min": 1362000,
+        "ex_showroom_max": 2489000
+    },
+    "Tata ALTROZ": {
+        "is_real_model": true,
+        "first_year": 2020,
+        "last_year": null,
+        "ex_showroom_min": null,
+        "ex_showroom_max": null
+    },
+    "Hyundai Tucson New": {
+        "is_real_model": true,
+        "first_year": 2005,
+        "last_year": null,
+        "ex_showroom_min": 2927000,
+        "ex_showroom_max": 3604000
+    },
+    "Volkswagen Polo": {
+        "is_real_model": true,
+        "first_year": 2010,
+        "last_year": 2022,
+        "ex_showroom_min": 606000,
+        "ex_showroom_max": 1025000
+    },
+    "Tata TIAGO NRG": {
+        "is_real_model": true,
+        "first_year": 2018,
+        "last_year": null,
+        "ex_showroom_min": 668000,
+        "ex_showroom_max": 825000
+    },
+    "Honda Accord": {
+        "is_real_model": true,
+        "first_year": 2001,
+        "last_year": 2020,
+        "ex_showroom_min": 4321000,
+        "ex_showroom_max": 4321000
+    },
+    "Toyota YARIS": {
+        "is_real_model": true,
+        "first_year": 2018,
+        "last_year": 2021,
+        "ex_showroom_min": 916000,
+        "ex_showroom_max": 1460000
+    },
+    "Renault Kiger": {
+        "is_real_model": true,
+        "first_year": 2021,
+        "last_year": null,
+        "ex_showroom_min": 629000,
+        "ex_showroom_max": 1129000
+    },
+    "Tata Safari": {
+        "is_real_model": true,
+        "first_year": 1998,
+        "last_year": null,
+        "ex_showroom_min": 1549000,
+        "ex_showroom_max": 2734000
+    },
+    "Maruti IGNIS": {
+        "is_real_model": true,
+        "first_year": 2017,
+        "last_year": null,
+        "ex_showroom_min": 535000,
+        "ex_showroom_max": 779000
+    },
+    "Jeep Compass": {
+        "is_real_model": true,
+        "first_year": 2017,
+        "last_year": null,
+        "ex_showroom_min": 1899000,
+        "ex_showroom_max": 3241000
+    },
+    "Tata Hexa": {
+        "is_real_model": true,
+        "first_year": 2017,
+        "last_year": 2020,
+        "ex_showroom_min": 1369000,
+        "ex_showroom_max": 1927000
+    },
+    "Honda CRV": {
+        "is_real_model": true,
+        "first_year": 2003,
+        "last_year": 2020,
+        "ex_showroom_min": 2827000,
+        "ex_showroom_max": 3277000
+    },
+    "Maruti S PRESSO": {
+        "is_real_model": true,
+        "first_year": 2019,
+        "last_year": null,
+        "ex_showroom_min": 350000,
+        "ex_showroom_max": 525000
+    },
+    "Hyundai Verna": {
+        "is_real_model": true,
+        "first_year": 2006,
+        "last_year": null,
+        "ex_showroom_min": 1107000,
+        "ex_showroom_max": 1758000
+    },
+    "Maruti Wagon R Stingray": {
+        "is_real_model": true,
+        "first_year": 2013,
+        "last_year": 2017,
+        "ex_showroom_min": null,
+        "ex_showroom_max": null
+    },
+    "Volkswagen TIGUAN": {
+        "is_real_model": true,
+        "first_year": 2017,
+        "last_year": null,
+        "ex_showroom_min": 4900000,
+        "ex_showroom_max": 4900000
+    },
+    "Maruti Zen Estilo": {
+        "is_real_model": true,
+        "first_year": 2006,
+        "last_year": 2014,
+        "ex_showroom_min": 312000,
+        "ex_showroom_max": 420000
+    },
+    "Volkswagen TAIGUN": {
+        "is_real_model": true,
+        "first_year": 2021,
+        "last_year": null,
+        "ex_showroom_min": null,
+        "ex_showroom_max": null
+    },
+    "Maruti Wagon R": {
+        "is_real_model": true,
+        "first_year": 1999,
+        "last_year": null,
+        "ex_showroom_min": null,
+        "ex_showroom_max": null
+    },
+    "Maruti Celerio": {
+        "is_real_model": true,
+        "first_year": 2014,
+        "last_year": null,
+        "ex_showroom_min": null,
+        "ex_showroom_max": null
+    },
+    "Nissan Micra": {
+        "is_real_model": true,
+        "first_year": 2010,
+        "last_year": 2020,
+        "ex_showroom_min": 663000,
+        "ex_showroom_max": 813000
+    },
+    "Hyundai Sonata": {
+        "is_real_model": true,
+        "first_year": 2001,
+        "last_year": 2015,
+        "ex_showroom_min": 1852000,
+        "ex_showroom_max": 2061000
+    },
+    "Toyota Innova Crysta": {
+        "is_real_model": true,
+        "first_year": 2016,
+        "last_year": null,
+        "ex_showroom_min": 1999000,
+        "ex_showroom_max": 2655000
+    },
+    "Maruti Dzire": {
+        "is_real_model": true,
+        "first_year": 2008,
+        "last_year": null,
+        "ex_showroom_min": null,
+        "ex_showroom_max": null
+    },
+    "KIA CARENS": {
+        "is_real_model": true,
+        "first_year": 2022,
+        "last_year": null,
+        "ex_showroom_min": 1060000,
+        "ex_showroom_max": 1970000
+    },
+    "Volkswagen Vento": {
+        "is_real_model": true,
+        "first_year": 2010,
+        "last_year": 2022,
+        "ex_showroom_min": 1000000,
+        "ex_showroom_max": 1769000
+    },
+    "Toyota Corolla Altis": {
+        "is_real_model": true,
+        "first_year": 2008,
+        "last_year": 2020,
+        "ex_showroom_min": 1645000,
+        "ex_showroom_max": 2019000
+    },
+    "Maruti Ertiga": {
+        "is_real_model": true,
+        "first_year": 2012,
+        "last_year": null,
+        "ex_showroom_min": null,
+        "ex_showroom_max": null
+    },
+    "Maruti Celerio X": {
+        "is_real_model": true,
+        "first_year": 2017,
+        "last_year": 2021,
+        "ex_showroom_min": 490000,
+        "ex_showroom_max": 567000
+    },
+    "Maruti Swift Dzire": {
+        "is_real_model": true,
+        "first_year": 2008,
+        "last_year": null,
+        "ex_showroom_min": 626000,
+        "ex_showroom_max": 931000
+    },
+    "Mahindra XUV500": {
+        "is_real_model": true,
+        "first_year": 2011,
+        "last_year": 2021,
+        "ex_showroom_min": 1513000,
+        "ex_showroom_max": 2007000
+    },
+    "Tata TIGOR": {
+        "is_real_model": true,
+        "first_year": 2017,
+        "last_year": null,
+        "ex_showroom_min": 549000,
+        "ex_showroom_max": 874000
+    },
+    "Toyota Camry": {
+        "is_real_model": true,
+        "first_year": 2002,
+        "last_year": null,
+        "ex_showroom_min": 4800000,
+        "ex_showroom_max": 4800000
+    },
+    "Toyota Glanza": {
+        "is_real_model": true,
+        "first_year": 2019,
+        "last_year": null,
+        "ex_showroom_min": 639000,
+        "ex_showroom_max": 915000
+    },
+    "Tata Harrier": {
+        "is_real_model": true,
+        "first_year": 2019,
+        "last_year": null,
+        "ex_showroom_min": 1499000,
+        "ex_showroom_max": 2589000
+    },
+    "Skoda Rapid": {
+        "is_real_model": true,
+        "first_year": 2011,
+        "last_year": 2021,
+        "ex_showroom_min": 779000,
+        "ex_showroom_max": 1349000
+    },
+    "MG HECTOR": {
+        "is_real_model": true,
+        "first_year": 2019,
+        "last_year": null,
+        "ex_showroom_min": 1400000,
+        "ex_showroom_max": 2289000
+    },
+    "Mahindra TUV300": {
+        "is_real_model": true,
+        "first_year": 2015,
+        "last_year": 2020,
+        "ex_showroom_min": 854000,
+        "ex_showroom_max": 1055000
+    },
+    "Ford FREESTYLE": {
+        "is_real_model": true,
+        "first_year": 2018,
+        "last_year": 2022,
+        "ex_showroom_min": 728000,
+        "ex_showroom_max": 903000
+    },
+    "Maruti Baleno": {
+        "is_real_model": true,
+        "first_year": 1999,
+        "last_year": null,
+        "ex_showroom_min": 599000,
+        "ex_showroom_max": 910000
+    },
+    "Honda WR-V": {
+        "is_real_model": true,
+        "first_year": 2017,
+        "last_year": 2023,
+        "ex_showroom_min": 911000,
+        "ex_showroom_max": 1231000
+    },
+    "Mahindra KUV 100 NXT": {
+        "is_real_model": true,
+        "first_year": 2016,
+        "last_year": 2023,
+        "ex_showroom_min": 618000,
+        "ex_showroom_max": 784000
+    },
+    "Hyundai NEW SANTRO": {
+        "is_real_model": true,
+        "first_year": 1998,
+        "last_year": 2022,
+        "ex_showroom_min": 489000,
+        "ex_showroom_max": 642000
+    },
+    "Maruti Alto K10": {
+        "is_real_model": true,
+        "first_year": 2010,
+        "last_year": null,
+        "ex_showroom_min": 370000,
+        "ex_showroom_max": 545000
+    },
+    "Mahindra XUV700": {
+        "is_real_model": true,
+        "first_year": 2021,
+        "last_year": 2025,
+        "ex_showroom_min": 1366000,
+        "ex_showroom_max": 2514000
+    },
+    "Skoda Octavia": {
+        "is_real_model": true,
+        "first_year": 2001,
+        "last_year": 2023,
+        "ex_showroom_min": 2735000,
+        "ex_showroom_max": 3045000
+    },
+    "Hyundai Eon": {
+        "is_real_model": true,
+        "first_year": 2011,
+        "last_year": 2019,
+        "ex_showroom_min": 331000,
+        "ex_showroom_max": 466000
+    },
+    "Honda Brio": {
+        "is_real_model": true,
+        "first_year": 2011,
+        "last_year": 2019,
+        "ex_showroom_min": 473000,
+        "ex_showroom_max": 681000
+    },
+    "Tata NEXON": {
+        "is_real_model": true,
+        "first_year": 2017,
+        "last_year": null,
+        "ex_showroom_min": 732000,
+        "ex_showroom_max": 1415000
+    },
+    "Maruti Wagon R 1.0": {
+        "is_real_model": true,
+        "first_year": 1999,
+        "last_year": null,
+        "ex_showroom_min": null,
+        "ex_showroom_max": null
+    },
+    "Renault Captur": {
+        "is_real_model": true,
+        "first_year": 2017,
+        "last_year": 2020,
+        "ex_showroom_min": 950000,
+        "ex_showroom_max": 1300000
+    },
+    "Honda Civic": {
+        "is_real_model": true,
+        "first_year": 2006,
+        "last_year": 2020,
+        "ex_showroom_min": 1794000,
+        "ex_showroom_max": 2235000
+    },
+    "Hyundai VENUE": {
+        "is_real_model": true,
+        "first_year": 2019,
+        "last_year": null,
+        "ex_showroom_min": 790000,
+        "ex_showroom_max": 1569000
+    },
+    "Renault TRIBER": {
+        "is_real_model": true,
+        "first_year": 2019,
+        "last_year": null,
+        "ex_showroom_min": 629000,
+        "ex_showroom_max": 917000
+    },
+    "BMW 3 Series": {
+        "is_real_model": true,
+        "first_year": 2007,
+        "last_year": null,
+        "ex_showroom_min": 6290000,
+        "ex_showroom_max": 6590000
+    },
+    "Nissan Terrano": {
+        "is_real_model": true,
+        "first_year": 2013,
+        "last_year": 2020,
+        "ex_showroom_min": 1000000,
+        "ex_showroom_max": 1465000
+    },
+    "Hyundai Xcent": {
+        "is_real_model": true,
+        "first_year": 2014,
+        "last_year": 2020,
+        "ex_showroom_min": 581000,
+        "ex_showroom_max": 875000
+    },
+    "Volkswagen Jetta": {
+        "is_real_model": true,
+        "first_year": 2008,
+        "last_year": 2017,
+        "ex_showroom_min": 1443000,
+        "ex_showroom_max": 2089000
+    },
+    "Maruti Ciaz": {
+        "is_real_model": true,
+        "first_year": 2014,
+        "last_year": 2025,
+        "ex_showroom_min": 940000,
+        "ex_showroom_max": 1229000
+    },
+    "Renault Duster": {
+        "is_real_model": true,
+        "first_year": 2012,
+        "last_year": null,
+        "ex_showroom_min": 1049000,
+        "ex_showroom_max": 1849000
+    },
+    "Toyota URBAN CRUISER": {
+        "is_real_model": true,
+        "first_year": 2020,
+        "last_year": 2022,
+        "ex_showroom_min": 903000,
+        "ex_showroom_max": 1173000
+    },
+    "Nissan Micra Active": {
+        "is_real_model": true,
+        "first_year": 2013,
+        "last_year": 2017,
+        "ex_showroom_min": 462000,
+        "ex_showroom_max": 599000
+    },
+    "Maruti Eeco": {
+        "is_real_model": true,
+        "first_year": 2010,
+        "last_year": null,
+        "ex_showroom_min": null,
+        "ex_showroom_max": null
+    },
+    "Hyundai ALCAZAR": {
+        "is_real_model": true,
+        "first_year": 2021,
+        "last_year": null,
+        "ex_showroom_min": 1499000,
+        "ex_showroom_max": 2170000
+    },
+    "Toyota Innova": {
+        "is_real_model": true,
+        "first_year": 2005,
+        "last_year": null,
+        "ex_showroom_min": 1977000,
+        "ex_showroom_max": 3098000
+    },
+    "Hyundai i10": {
+        "is_real_model": true,
+        "first_year": 2007,
+        "last_year": 2017,
+        "ex_showroom_min": 365000,
+        "ex_showroom_max": 591000
+    },
+    "Datsun Go Plus": {
+        "is_real_model": true,
+        "first_year": 2015,
+        "last_year": 2022,
+        "ex_showroom_min": 426000,
+        "ex_showroom_max": 700000
+    },
+    "Honda Amaze": {
+        "is_real_model": true,
+        "first_year": 2013,
+        "last_year": null,
+        "ex_showroom_min": 748000,
+        "ex_showroom_max": 1000000
+    },
+    "Maruti OMNI E": {
+        "is_real_model": true,
+        "first_year": 1984,
+        "last_year": 2019,
+        "ex_showroom_min": 272000,
+        "ex_showroom_max": 391000
+    },
+    "Hyundai Santro Xing": {
+        "is_real_model": true,
+        "first_year": 2003,
+        "last_year": 2014,
+        "ex_showroom_min": 253000,
+        "ex_showroom_max": 422000
+    },
+    "Skoda SLAVIA": {
+        "is_real_model": true,
+        "first_year": 2022,
+        "last_year": null,
+        "ex_showroom_min": 1034000,
+        "ex_showroom_max": 1824000
+    },
+    "Hyundai AURA": {
+        "is_real_model": true,
+        "first_year": 2020,
+        "last_year": null,
+        "ex_showroom_min": null,
+        "ex_showroom_max": null
+    },
+    "Tata Zest": {
+        "is_real_model": true,
+        "first_year": 2014,
+        "last_year": 2019,
+        "ex_showroom_min": 582000,
+        "ex_showroom_max": 957000
+    },
+    "KIA SONET": {
+        "is_real_model": true,
+        "first_year": 2020,
+        "last_year": null,
+        "ex_showroom_min": 730000,
+        "ex_showroom_max": 1409000
+    },
+    "Mahindra Thar": {
+        "is_real_model": true,
+        "first_year": 2010,
+        "last_year": null,
+        "ex_showroom_min": null,
+        "ex_showroom_max": null
+    },
+    "Ford Endeavour": {
+        "is_real_model": true,
+        "first_year": 2003,
+        "last_year": 2021,
+        "ex_showroom_min": 2999000,
+        "ex_showroom_max": 3625000
+    },
+    "Nissan Sunny": {
+        "is_real_model": true,
+        "first_year": 2011,
+        "last_year": 2020,
+        "ex_showroom_min": 707000,
+        "ex_showroom_max": 1089000
+    },
+    "Renault Pulse": {
+        "is_real_model": true,
+        "first_year": 2012,
+        "last_year": 2017,
+        "ex_showroom_min": 503000,
+        "ex_showroom_max": 732000
+    },
+    "Hyundai Elite i20": {
+        "is_real_model": true,
+        "first_year": 2014,
+        "last_year": 2020,
+        "ex_showroom_min": 649000,
+        "ex_showroom_max": 831000
+    },
+    "Hyundai Grand i10": {
+        "is_real_model": true,
+        "first_year": 2013,
+        "last_year": 2020,
+        "ex_showroom_min": 589000,
+        "ex_showroom_max": 862000
+    },
+    "Hyundai i20 Active": {
+        "is_real_model": true,
+        "first_year": 2015,
+        "last_year": 2020,
+        "ex_showroom_min": 774000,
+        "ex_showroom_max": 1000000
+    },
+    "Toyota Etios Liva": {
+        "is_real_model": true,
+        "first_year": 2011,
+        "last_year": 2020,
+        "ex_showroom_min": 534000,
+        "ex_showroom_max": 774000
+    },
+    "Maruti S Cross": {
+        "is_real_model": true,
+        "first_year": 2015,
+        "last_year": 2022,
+        "ex_showroom_min": 895000,
+        "ex_showroom_max": 1385000
+    },
+    "Tata Bolt": {
+        "is_real_model": true,
+        "first_year": 2015,
+        "last_year": 2019,
+        "ex_showroom_min": 476000,
+        "ex_showroom_max": 742000
+    },
+    "Toyota Fortuner": {
+        "is_real_model": true,
+        "first_year": 2009,
+        "last_year": null,
+        "ex_showroom_min": 3378000,
+        "ex_showroom_max": 5194000
+    }
+}

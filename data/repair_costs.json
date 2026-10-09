@@ -1,0 +1,1442 @@
+{
+    "front_bumper": {
+        "normal": {
+            "hatchback": {
+                "severity_1": 1000,
+                "severity_2": 5000,
+                "severity_3": 10000
+            },
+            "sedan": {
+                "severity_1": 1200,
+                "severity_2": 6000,
+                "severity_3": 12000
+            },
+            "suv": {
+                "severity_1": 1500,
+                "severity_2": 7000,
+                "severity_3": 15000
+            }
+        },
+        "luxury": {
+            "hatchback": {
+                "severity_1": 2000,
+                "severity_2": 8000,
+                "severity_3": 30000
+            },
+            "sedan": {
+                "severity_1": 2500,
+                "severity_2": 10000,
+                "severity_3": 45000
+            },
+            "suv": {
+                "severity_1": 3000,
+                "severity_2": 12000,
+                "severity_3": 60000
+            }
+        }
+    },
+    "bonnet": {
+        "normal": {
+            "hatchback": {
+                "severity_1": 1000,
+                "severity_2": 5500,
+                "severity_3": 14000
+            },
+            "sedan": {
+                "severity_1": 1500,
+                "severity_2": 6500,
+                "severity_3": 18000
+            },
+            "suv": {
+                "severity_1": 2000,
+                "severity_2": 8500,
+                "severity_3": 23000
+            }
+        },
+        "luxury": {
+            "hatchback": {
+                "severity_1": 5000,
+                "severity_2": 20000,
+                "severity_3": 50000
+            },
+            "sedan": {
+                "severity_1": 6000,
+                "severity_2": 25000,
+                "severity_3": 90000
+            },
+            "suv": {
+                "severity_1": 8000,
+                "severity_2": 30000,
+                "severity_3": 125000
+            }
+        }
+    },
+    "boot_lid": {
+        "normal": {
+            "hatchback": {
+                "severity_1": 1000,
+                "severity_2": 5000,
+                "severity_3": 13000
+            },
+            "sedan": {
+                "severity_1": 1200,
+                "severity_2": 6000,
+                "severity_3": 18000
+            },
+            "suv": {
+                "severity_1": 1500,
+                "severity_2": 7000,
+                "severity_3": 25000
+            }
+        },
+        "luxury": {
+            "hatchback": {
+                "severity_1": 2000,
+                "severity_2": 9000,
+                "severity_3": 30000
+            },
+            "sedan": {
+                "severity_1": 2500,
+                "severity_2": 11000,
+                "severity_3": 45000
+            },
+            "suv": {
+                "severity_1": 3000,
+                "severity_2": 13000,
+                "severity_3": 60000
+            }
+        }
+    },
+    "rear_bumper": {
+        "normal": {
+            "hatchback": {
+                "severity_1": 1000,
+                "severity_2": 5000,
+                "severity_3": 8500
+            },
+            "sedan": {
+                "severity_1": 1250,
+                "severity_2": 6000,
+                "severity_3": 11000
+            },
+            "suv": {
+                "severity_1": 1500,
+                "severity_2": 8000,
+                "severity_3": 15000
+            }
+        },
+        "luxury": {
+            "hatchback": {
+                "severity_1": 2000,
+                "severity_2": 9000,
+                "severity_3": 30000
+            },
+            "sedan": {
+                "severity_1": 2500,
+                "severity_2": 11000,
+                "severity_3": 45000
+            },
+            "suv": {
+                "severity_1": 3000,
+                "severity_2": 13000,
+                "severity_3": 60000
+            }
+        }
+    },
+    "roof": {
+        "normal": {
+            "hatchback": {
+                "severity_1": 1500,
+                "severity_2": 12000,
+                "severity_3": 16000
+            },
+            "sedan": {
+                "severity_1": 1800,
+                "severity_2": 14000,
+                "severity_3": 19000
+            },
+            "suv": {
+                "severity_1": 2000,
+                "severity_2": 17500,
+                "severity_3": 23000
+            }
+        },
+        "luxury": {
+            "hatchback": {
+                "severity_1": 2500,
+                "severity_2": 17500,
+                "severity_3": 22000
+            },
+            "sedan": {
+                "severity_1": 3000,
+                "severity_2": 20000,
+                "severity_3": 28000
+            },
+            "suv": {
+                "severity_1": 3500,
+                "severity_2": 20000,
+                "severity_3": 35000
+            }
+        }
+    },
+    "body_other": {
+        "normal": {
+            "hatchback": {
+                "severity_1": 1000,
+                "severity_2": 3500,
+                "severity_3": 12000
+            },
+            "sedan": {
+                "severity_1": 1200,
+                "severity_2": 4500,
+                "severity_3": 16000
+            },
+            "suv": {
+                "severity_1": 1500,
+                "severity_2": 5500,
+                "severity_3": 20000
+            }
+        },
+        "luxury": {
+            "hatchback": {
+                "severity_1": 2000,
+                "severity_2": 6000,
+                "severity_3": 25000
+            },
+            "sedan": {
+                "severity_1": 2500,
+                "severity_2": 7000,
+                "severity_3": 35000
+            },
+            "suv": {
+                "severity_1": 3000,
+                "severity_2": 9000,
+                "severity_3": 45000
+            }
+        }
+    },
+    "door": {
+        "normal": {
+            "hatchback": {
+                "severity_1": 1000,
+                "severity_2": 6000,
+                "severity_3": 14000
+            },
+            "sedan": {
+                "severity_1": 1200,
+                "severity_2": 7000,
+                "severity_3": 17000
+            },
+            "suv": {
+                "severity_1": 1500,
+                "severity_2": 9000,
+                "severity_3": 22000
+            }
+        },
+        "luxury": {
+            "hatchback": {
+                "severity_1": 2000,
+                "severity_2": 9000,
+                "severity_3": 25000
+            },
+            "sedan": {
+                "severity_1": 2500,
+                "severity_2": 11000,
+                "severity_3": 32000
+            },
+            "suv": {
+                "severity_1": 3000,
+                "severity_2": 14000,
+                "severity_3": 40000
+            }
+        }
+    },
+    "fender": {
+        "normal": {
+            "hatchback": {
+                "severity_1": 800,
+                "severity_2": 4000,
+                "severity_3": 8000
+            },
+            "sedan": {
+                "severity_1": 1000,
+                "severity_2": 5000,
+                "severity_3": 10000
+            },
+            "suv": {
+                "severity_1": 1200,
+                "severity_2": 6000,
+                "severity_3": 12000
+            }
+        },
+        "luxury": {
+            "hatchback": {
+                "severity_1": 1500,
+                "severity_2": 7000,
+                "severity_3": 20000
+            },
+            "sedan": {
+                "severity_1": 1800,
+                "severity_2": 9000,
+                "severity_3": 30000
+            },
+            "suv": {
+                "severity_1": 2000,
+                "severity_2": 11000,
+                "severity_3": 40000
+            }
+        }
+    },
+    "windshield": {
+        "normal": {
+            "hatchback": {
+                "severity_1": 800,
+                "severity_2": 5000,
+                "severity_3": 5500
+            },
+            "sedan": {
+                "severity_1": 800,
+                "severity_2": 7000,
+                "severity_3": 8000
+            },
+            "suv": {
+                "severity_1": 800,
+                "severity_2": 9000,
+                "severity_3": 10000
+            }
+        },
+        "luxury": {
+            "hatchback": {
+                "severity_1": 1200,
+                "severity_2": 37500,
+                "severity_3": 42500
+            },
+            "sedan": {
+                "severity_1": 1200,
+                "severity_2": 50000,
+                "severity_3": 60000
+            },
+            "suv": {
+                "severity_1": 1200,
+                "severity_2": 65000,
+                "severity_3": 80000
+            }
+        }
+    },
+    "quarter_panel": {
+        "normal": {
+            "hatchback": {
+                "severity_1": 1000,
+                "severity_2": 6000,
+                "severity_3": 18000
+            },
+            "sedan": {
+                "severity_1": 1300,
+                "severity_2": 7500,
+                "severity_3": 22000
+            },
+            "suv": {
+                "severity_1": 1600,
+                "severity_2": 9000,
+                "severity_3": 26000
+            }
+        },
+        "luxury": {
+            "hatchback": {
+                "severity_1": 2500,
+                "severity_2": 12000,
+                "severity_3": 35000
+            },
+            "sedan": {
+                "severity_1": 3000,
+                "severity_2": 15000,
+                "severity_3": 45000
+            },
+            "suv": {
+                "severity_1": 3500,
+                "severity_2": 18000,
+                "severity_3": 55000
+            }
+        }
+    },
+    "rear_glass": {
+        "normal": {
+            "hatchback": {
+                "severity_1": 5500,
+                "severity_2": 5500,
+                "severity_3": 7500
+            },
+            "sedan": {
+                "severity_1": 7500,
+                "severity_2": 7500,
+                "severity_3": 10000
+            },
+            "suv": {
+                "severity_1": 10000,
+                "severity_2": 10000,
+                "severity_3": 13000
+            }
+        },
+        "luxury": {
+            "hatchback": {
+                "severity_1": 25000,
+                "severity_2": 25000,
+                "severity_3": 30000
+            },
+            "sedan": {
+                "severity_1": 30000,
+                "severity_2": 30000,
+                "severity_3": 35000
+            },
+            "suv": {
+                "severity_1": 35000,
+                "severity_2": 35000,
+                "severity_3": 40000
+            }
+        }
+    },
+    "tail_lamp": {
+        "normal": {
+            "hatchback": {
+                "severity_1": 500,
+                "severity_2": 2500,
+                "severity_3": 8000
+            },
+            "sedan": {
+                "severity_1": 600,
+                "severity_2": 3500,
+                "severity_3": 12000
+            },
+            "suv": {
+                "severity_1": 700,
+                "severity_2": 4500,
+                "severity_3": 16000
+            }
+        },
+        "luxury": {
+            "hatchback": {
+                "severity_1": 1000,
+                "severity_2": 19000,
+                "severity_3": 25000
+            },
+            "sedan": {
+                "severity_1": 1200,
+                "severity_2": 25000,
+                "severity_3": 35000
+            },
+            "suv": {
+                "severity_1": 1500,
+                "severity_2": 37000,
+                "severity_3": 45000
+            }
+        }
+    },
+    "sunroof": {
+        "normal": {
+            "hatchback": {
+                "severity_1": 1500,
+                "severity_2": 9000,
+                "severity_3": 55000
+            },
+            "sedan": {
+                "severity_1": 1800,
+                "severity_2": 12000,
+                "severity_3": 65000
+            },
+            "suv": {
+                "severity_1": 2000,
+                "severity_2": 15000,
+                "severity_3": 100000
+            }
+        },
+        "luxury": {
+            "hatchback": {
+                "severity_1": 2500,
+                "severity_2": 50000,
+                "severity_3": 130000
+            },
+            "sedan": {
+                "severity_1": 2500,
+                "severity_2": 40000,
+                "severity_3": 150000
+            },
+            "suv": {
+                "severity_1": 3000,
+                "severity_2": 65000,
+                "severity_3": 200000
+            }
+        }
+    },
+    "headlamp": {
+        "normal": {
+            "hatchback": {
+                "severity_1": 1200,
+                "severity_2": 5000,
+                "severity_3": 15000
+            },
+            "sedan": {
+                "severity_1": 1400,
+                "severity_2": 7000,
+                "severity_3": 22000
+            },
+            "suv": {
+                "severity_1": 2000,
+                "severity_2": 10000,
+                "severity_3": 28000
+            }
+        },
+        "luxury": {
+            "hatchback": {
+                "severity_1": 2500,
+                "severity_2": 20000,
+                "severity_3": 40000
+            },
+            "sedan": {
+                "severity_1": 2500,
+                "severity_2": 35000,
+                "severity_3": 60000
+            },
+            "suv": {
+                "severity_1": 2500,
+                "severity_2": 45000,
+                "severity_3": 75000
+            }
+        }
+    },
+    "side_window": {
+        "normal": {
+            "hatchback": {
+                "severity_1": 2650,
+                "severity_2": 2650,
+                "severity_3": 6500
+            },
+            "sedan": {
+                "severity_1": 4500,
+                "severity_2": 4500,
+                "severity_3": 9000
+            },
+            "suv": {
+                "severity_1": 4500,
+                "severity_2": 4500,
+                "severity_3": 9000
+            }
+        },
+        "luxury": {
+            "hatchback": {
+                "severity_1": 16300,
+                "severity_2": 16300,
+                "severity_3": 28300
+            },
+            "sedan": {
+                "severity_1": 16300,
+                "severity_2": 16300,
+                "severity_3": 28300
+            },
+            "suv": {
+                "severity_1": 16300,
+                "severity_2": 16300,
+                "severity_3": 28300
+            }
+        }
+    },
+    "door_handle": {
+        "normal": {
+            "hatchback": {
+                "severity_1": 500,
+                "severity_2": 1200,
+                "severity_3": 2500
+            },
+            "sedan": {
+                "severity_1": 600,
+                "severity_2": 1600,
+                "severity_3": 3000
+            },
+            "suv": {
+                "severity_1": 700,
+                "severity_2": 2000,
+                "severity_3": 4000
+            }
+        },
+        "luxury": {
+            "hatchback": {
+                "severity_1": 5000,
+                "severity_2": 8000,
+                "severity_3": 15000
+            },
+            "sedan": {
+                "severity_1": 5000,
+                "severity_2": 10000,
+                "severity_3": 18000
+            },
+            "suv": {
+                "severity_1": 5000,
+                "severity_2": 12000,
+                "severity_3": 25000
+            }
+        }
+    },
+    "wiper": {
+        "normal": {
+            "hatchback": {
+                "severity_1": 300,
+                "severity_2": 600,
+                "severity_3": 1000
+            },
+            "sedan": {
+                "severity_1": 300,
+                "severity_2": 700,
+                "severity_3": 1200
+            },
+            "suv": {
+                "severity_1": 300,
+                "severity_2": 800,
+                "severity_3": 1500
+            }
+        },
+        "luxury": {
+            "hatchback": {
+                "severity_1": 500,
+                "severity_2": 1500,
+                "severity_3": 2500
+            },
+            "sedan": {
+                "severity_1": 500,
+                "severity_2": 1800,
+                "severity_3": 3000
+            },
+            "suv": {
+                "severity_1": 500,
+                "severity_2": 2200,
+                "severity_3": 4500
+            }
+        }
+    },
+    "side_mirror": {
+        "normal": {
+            "hatchback": {
+                "severity_1": 500,
+                "severity_2": 2500,
+                "severity_3": 4500
+            },
+            "sedan": {
+                "severity_1": 700,
+                "severity_2": 4000,
+                "severity_3": 6500
+            },
+            "suv": {
+                "severity_1": 800,
+                "severity_2": 5000,
+                "severity_3": 8000
+            }
+        },
+        "luxury": {
+            "hatchback": {
+                "severity_1": 1500,
+                "severity_2": 10000,
+                "severity_3": 18000
+            },
+            "sedan": {
+                "severity_1": 1500,
+                "severity_2": 18000,
+                "severity_3": 23000
+            },
+            "suv": {
+                "severity_1": 1800,
+                "severity_2": 15000,
+                "severity_3": 20000
+            }
+        }
+    },
+    "grille": {
+        "normal": {
+            "hatchback": {
+                "severity_1": 1000,
+                "severity_2": 3000,
+                "severity_3": 8500
+            },
+            "sedan": {
+                "severity_1": 1500,
+                "severity_2": 8000,
+                "severity_3": 18000
+            },
+            "suv": {
+                "severity_1": 1800,
+                "severity_2": 9000,
+                "severity_3": 20000
+            }
+        },
+        "luxury": {
+            "hatchback": {
+                "severity_1": 3000,
+                "severity_2": 18000,
+                "severity_3": 32000
+            },
+            "sedan": {
+                "severity_1": 3500,
+                "severity_2": 22000,
+                "severity_3": 40000
+            },
+            "suv": {
+                "severity_1": 4000,
+                "severity_2": 20000,
+                "severity_3": 35000
+            }
+        }
+    },
+    "fog_lamp": {
+        "normal": {
+            "hatchback": {
+                "severity_1": 400,
+                "severity_2": 1300,
+                "severity_3": 3500
+            },
+            "sedan": {
+                "severity_1": 500,
+                "severity_2": 1800,
+                "severity_3": 4500
+            },
+            "suv": {
+                "severity_1": 600,
+                "severity_2": 2500,
+                "severity_3": 6000
+            }
+        },
+        "luxury": {
+            "hatchback": {
+                "severity_1": 700,
+                "severity_2": 9500,
+                "severity_3": 11000
+            },
+            "sedan": {
+                "severity_1": 800,
+                "severity_2": 10500,
+                "severity_3": 14000
+            },
+            "suv": {
+                "severity_1": 900,
+                "severity_2": 12500,
+                "severity_3": 16000
+            }
+        }
+    },
+    "seat_cover": {
+        "normal": {
+            "hatchback": {
+                "severity_1": 1000,
+                "severity_2": 3000,
+                "severity_3": 7000
+            },
+            "sedan": {
+                "severity_1": 1200,
+                "severity_2": 4000,
+                "severity_3": 8500
+            },
+            "suv": {
+                "severity_1": 1500,
+                "severity_2": 5000,
+                "severity_3": 11000
+            }
+        },
+        "luxury": {
+            "hatchback": {
+                "severity_1": 3000,
+                "severity_2": 12000,
+                "severity_3": 20000
+            },
+            "sedan": {
+                "severity_1": 3500,
+                "severity_2": 15000,
+                "severity_3": 25000
+            },
+            "suv": {
+                "severity_1": 4000,
+                "severity_2": 18000,
+                "severity_3": 35000
+            }
+        }
+    },
+    "wheel": {
+        "normal": {
+            "hatchback": {
+                "severity_1": 1200,
+                "severity_2": 10000,
+                "severity_3": 18000
+            },
+            "sedan": {
+                "severity_1": 1500,
+                "severity_2": 12000,
+                "severity_3": 22000
+            },
+            "suv": {
+                "severity_1": 2000,
+                "severity_2": 15000,
+                "severity_3": 28000
+            }
+        },
+        "luxury": {
+            "hatchback": {
+                "severity_1": 5000,
+                "severity_2": 25000,
+                "severity_3": 35000
+            },
+            "sedan": {
+                "severity_1": 6000,
+                "severity_2": 35000,
+                "severity_3": 55000
+            },
+            "suv": {
+                "severity_1": 8000,
+                "severity_2": 45000,
+                "severity_3": 70000
+            }
+        }
+    },
+    "tyre": {
+        "normal": {
+            "hatchback": {
+                "severity_1": 4600,
+                "severity_2": 9200,
+                "severity_3": 18400
+            },
+            "sedan": {
+                "severity_1": 7000,
+                "severity_2": 14000,
+                "severity_3": 28000
+            },
+            "suv": {
+                "severity_1": 8600,
+                "severity_2": 17200,
+                "severity_3": 34400
+            }
+        },
+        "luxury": {
+            "hatchback": {
+                "severity_1": 9500,
+                "severity_2": 19000,
+                "severity_3": 38000
+            },
+            "sedan": {
+                "severity_1": 13600,
+                "severity_2": 27200,
+                "severity_3": 54400
+            },
+            "suv": {
+                "severity_1": 20000,
+                "severity_2": 40000,
+                "severity_3": 80000
+            }
+        }
+    },
+    "seat": {
+        "normal": {
+            "hatchback": {
+                "severity_1": 999,
+                "severity_2": 3500,
+                "severity_3": 15000
+            },
+            "sedan": {
+                "severity_1": 1199,
+                "severity_2": 4500,
+                "severity_3": 20000
+            },
+            "suv": {
+                "severity_1": 1499,
+                "severity_2": 5500,
+                "severity_3": 25000
+            }
+        },
+        "luxury": {
+            "hatchback": {
+                "severity_1": 2500,
+                "severity_2": 15000,
+                "severity_3": 50000
+            },
+            "sedan": {
+                "severity_1": 3000,
+                "severity_2": 20000,
+                "severity_3": 75000
+            },
+            "suv": {
+                "severity_1": 3500,
+                "severity_2": 25000,
+                "severity_3": 100000
+            }
+        }
+    },
+    "number_plate": {
+        "normal": {
+            "hatchback": {
+                "severity_1": 200,
+                "severity_2": 900,
+                "severity_3": 2494
+            },
+            "sedan": {
+                "severity_1": 200,
+                "severity_2": 900,
+                "severity_3": 2494
+            },
+            "suv": {
+                "severity_1": 200,
+                "severity_2": 900,
+                "severity_3": 2494
+            }
+        },
+        "luxury": {
+            "hatchback": {
+                "severity_1": 200,
+                "severity_2": 900,
+                "severity_3": 2494
+            },
+            "sedan": {
+                "severity_1": 200,
+                "severity_2": 900,
+                "severity_3": 2494
+            },
+            "suv": {
+                "severity_1": 200,
+                "severity_2": 900,
+                "severity_3": 2494
+            }
+        }
+    },
+    "dashboard": {
+        "normal": {
+            "hatchback": {
+                "severity_1": 2500,
+                "severity_2": 8000,
+                "severity_3": 40000
+            },
+            "sedan": {
+                "severity_1": 3000,
+                "severity_2": 10000,
+                "severity_3": 52000
+            },
+            "suv": {
+                "severity_1": 3500,
+                "severity_2": 12000,
+                "severity_3": 65000
+            }
+        },
+        "luxury": {
+            "hatchback": {
+                "severity_1": 4500,
+                "severity_2": 15000,
+                "severity_3": 75000
+            },
+            "sedan": {
+                "severity_1": 5000,
+                "severity_2": 18000,
+                "severity_3": 100000
+            },
+            "suv": {
+                "severity_1": 6000,
+                "severity_2": 22000,
+                "severity_3": 120000
+            }
+        }
+    },
+    "floor_carpet": {
+        "normal": {
+            "hatchback": {
+                "severity_1": 800,
+                "severity_2": 2500,
+                "severity_3": 6000
+            },
+            "sedan": {
+                "severity_1": 1000,
+                "severity_2": 3500,
+                "severity_3": 9000
+            },
+            "suv": {
+                "severity_1": 1200,
+                "severity_2": 4500,
+                "severity_3": 13000
+            }
+        },
+        "luxury": {
+            "hatchback": {
+                "severity_1": 1500,
+                "severity_2": 5000,
+                "severity_3": 15000
+            },
+            "sedan": {
+                "severity_1": 1800,
+                "severity_2": 6000,
+                "severity_3": 18000
+            },
+            "suv": {
+                "severity_1": 2200,
+                "severity_2": 7000,
+                "severity_3": 22000
+            }
+        }
+    },
+    "steering_wheel": {
+        "normal": {
+            "hatchback": {
+                "severity_1": 800,
+                "severity_2": 8500,
+                "severity_3": 22000
+            },
+            "sedan": {
+                "severity_1": 1000,
+                "severity_2": 10500,
+                "severity_3": 27000
+            },
+            "suv": {
+                "severity_1": 1200,
+                "severity_2": 12500,
+                "severity_3": 32000
+            }
+        },
+        "luxury": {
+            "hatchback": {
+                "severity_1": 2500,
+                "severity_2": 45000,
+                "severity_3": 100000
+            },
+            "sedan": {
+                "severity_1": 3000,
+                "severity_2": 55000,
+                "severity_3": 125000
+            },
+            "suv": {
+                "severity_1": 3500,
+                "severity_2": 65000,
+                "severity_3": 150000
+            }
+        }
+    },
+    "roof_lining": {
+        "normal": {
+            "hatchback": {
+                "severity_1": 999,
+                "severity_2": 7500,
+                "severity_3": 7500
+            },
+            "sedan": {
+                "severity_1": 1299,
+                "severity_2": 8500,
+                "severity_3": 8500
+            },
+            "suv": {
+                "severity_1": 1499,
+                "severity_2": 9500,
+                "severity_3": 9500
+            }
+        },
+        "luxury": {
+            "hatchback": {
+                "severity_1": 1999,
+                "severity_2": 15500,
+                "severity_3": 15500
+            },
+            "sedan": {
+                "severity_1": 1999,
+                "severity_2": 15500,
+                "severity_3": 15500
+            },
+            "suv": {
+                "severity_1": 1999,
+                "severity_2": 15500,
+                "severity_3": 15500
+            }
+        }
+    },
+    "door_trim": {
+        "normal": {
+            "hatchback": {
+                "severity_1": 1500,
+                "severity_2": 4000,
+                "severity_3": 8000
+            },
+            "sedan": {
+                "severity_1": 1800,
+                "severity_2": 4500,
+                "severity_3": 9500
+            },
+            "suv": {
+                "severity_1": 2000,
+                "severity_2": 5000,
+                "severity_3": 11000
+            }
+        },
+        "luxury": {
+            "hatchback": {
+                "severity_1": 2500,
+                "severity_2": 6000,
+                "severity_3": 15000
+            },
+            "sedan": {
+                "severity_1": 3000,
+                "severity_2": 7000,
+                "severity_3": 18000
+            },
+            "suv": {
+                "severity_1": 3500,
+                "severity_2": 8000,
+                "severity_3": 20000
+            }
+        }
+    },
+    "handbrake": {
+        "normal": {
+            "hatchback": {
+                "severity_1": 500,
+                "severity_2": 2000,
+                "severity_3": 6000
+            },
+            "sedan": {
+                "severity_1": 600,
+                "severity_2": 4500,
+                "severity_3": 8000
+            },
+            "suv": {
+                "severity_1": 700,
+                "severity_2": 3000,
+                "severity_3": 9000
+            }
+        },
+        "luxury": {
+            "hatchback": {
+                "severity_1": 1000,
+                "severity_2": 8000,
+                "severity_3": 18000
+            },
+            "sedan": {
+                "severity_1": 1200,
+                "severity_2": 12000,
+                "severity_3": 25000
+            },
+            "suv": {
+                "severity_1": 1500,
+                "severity_2": 15000,
+                "severity_3": 30000
+            }
+        }
+    },
+    "inside_mirror": {
+        "normal": {
+            "hatchback": {
+                "severity_1": 300,
+                "severity_2": 1000,
+                "severity_3": 1500
+            },
+            "sedan": {
+                "severity_1": 300,
+                "severity_2": 1500,
+                "severity_3": 2000
+            },
+            "suv": {
+                "severity_1": 300,
+                "severity_2": 1500,
+                "severity_3": 2000
+            }
+        },
+        "luxury": {
+            "hatchback": {
+                "severity_1": 500,
+                "severity_2": 7000,
+                "severity_3": 10000
+            },
+            "sedan": {
+                "severity_1": 500,
+                "severity_2": 7000,
+                "severity_3": 10000
+            },
+            "suv": {
+                "severity_1": 500,
+                "severity_2": 7000,
+                "severity_3": 10000
+            }
+        }
+    },
+    "seat_belt": {
+        "normal": {
+            "hatchback": {
+                "severity_1": 500,
+                "severity_2": 1500,
+                "severity_3": 5500
+            },
+            "sedan": {
+                "severity_1": 600,
+                "severity_2": 2000,
+                "severity_3": 7000
+            },
+            "suv": {
+                "severity_1": 700,
+                "severity_2": 2500,
+                "severity_3": 8000
+            }
+        },
+        "luxury": {
+            "hatchback": {
+                "severity_1": 1200,
+                "severity_2": 5000,
+                "severity_3": 16000
+            },
+            "sedan": {
+                "severity_1": 1500,
+                "severity_2": 7000,
+                "severity_3": 22000
+            },
+            "suv": {
+                "severity_1": 1800,
+                "severity_2": 8000,
+                "severity_3": 26000
+            }
+        }
+    },
+    "gear_lever": {
+        "normal": {
+            "hatchback": {
+                "severity_1": 300,
+                "severity_2": 1000,
+                "severity_3": 3500
+            },
+            "sedan": {
+                "severity_1": 400,
+                "severity_2": 1500,
+                "severity_3": 5000
+            },
+            "suv": {
+                "severity_1": 500,
+                "severity_2": 2000,
+                "severity_3": 7000
+            }
+        },
+        "luxury": {
+            "hatchback": {
+                "severity_1": 1500,
+                "severity_2": 6000,
+                "severity_3": 18000
+            },
+            "sedan": {
+                "severity_1": 2000,
+                "severity_2": 8000,
+                "severity_3": 25000
+            },
+            "suv": {
+                "severity_1": 2500,
+                "severity_2": 10000,
+                "severity_3": 30000
+            }
+        }
+    },
+    "pedals": {
+        "normal": {
+            "hatchback": {
+                "severity_1": 500,
+                "severity_2": 2000,
+                "severity_3": 5000
+            },
+            "sedan": {
+                "severity_1": 600,
+                "severity_2": 2500,
+                "severity_3": 6500
+            },
+            "suv": {
+                "severity_1": 700,
+                "severity_2": 3000,
+                "severity_3": 7500
+            }
+        },
+        "luxury": {
+            "hatchback": {
+                "severity_1": 1200,
+                "severity_2": 10000,
+                "severity_3": 20000
+            },
+            "sedan": {
+                "severity_1": 1500,
+                "severity_2": 12000,
+                "severity_3": 24000
+            },
+            "suv": {
+                "severity_1": 1800,
+                "severity_2": 14000,
+                "severity_3": 28000
+            }
+        }
+    },
+    "engine_bay": {
+        "normal": {
+            "hatchback": {
+                "severity_1": 1500,
+                "severity_2": 5000,
+                "severity_3": 65000
+            },
+            "sedan": {
+                "severity_1": 1600,
+                "severity_2": 7000,
+                "severity_3": 85000
+            },
+            "suv": {
+                "severity_1": 2000,
+                "severity_2": 9000,
+                "severity_3": 100000
+            }
+        },
+        "luxury": {
+            "hatchback": {
+                "severity_1": 2500,
+                "severity_2": 15000,
+                "severity_3": 120000
+            },
+            "sedan": {
+                "severity_1": 2700,
+                "severity_2": 18000,
+                "severity_3": 160000
+            },
+            "suv": {
+                "severity_1": 3000,
+                "severity_2": 22000,
+                "severity_3": 200000
+            }
+        }
+    },
+    "infotainment": {
+        "normal": {
+            "hatchback": {
+                "severity_1": 3000,
+                "severity_2": 8000,
+                "severity_3": 18000
+            },
+            "sedan": {
+                "severity_1": 3500,
+                "severity_2": 10000,
+                "severity_3": 22000
+            },
+            "suv": {
+                "severity_1": 4000,
+                "severity_2": 12000,
+                "severity_3": 25000
+            }
+        },
+        "luxury": {
+            "hatchback": {
+                "severity_1": 6000,
+                "severity_2": 25000,
+                "severity_3": 45000
+            },
+            "sedan": {
+                "severity_1": 7000,
+                "severity_2": 30000,
+                "severity_3": 50000
+            },
+            "suv": {
+                "severity_1": 8000,
+                "severity_2": 35000,
+                "severity_3": 60000
+            }
+        }
+    },
+    "interior_other": {
+        "normal": {
+            "hatchback": {
+                "severity_1": 1000,
+                "severity_2": 4000,
+                "severity_3": 35000
+            },
+            "sedan": {
+                "severity_1": 1200,
+                "severity_2": 5000,
+                "severity_3": 40000
+            },
+            "suv": {
+                "severity_1": 1500,
+                "severity_2": 6000,
+                "severity_3": 45000
+            }
+        },
+        "luxury": {
+            "hatchback": {
+                "severity_1": 2000,
+                "severity_2": 8000,
+                "severity_3": 70000
+            },
+            "sedan": {
+                "severity_1": 2500,
+                "severity_2": 10000,
+                "severity_3": 80000
+            },
+            "suv": {
+                "severity_1": 3000,
+                "severity_2": 12000,
+                "severity_3": 90000
+            }
+        }
+    },
+    "ac_vent": {
+        "normal": {
+            "hatchback": {
+                "severity_1": 500,
+                "severity_2": 1000,
+                "severity_3": 5000
+            },
+            "sedan": {
+                "severity_1": 700,
+                "severity_2": 2500,
+                "severity_3": 9000
+            },
+            "suv": {
+                "severity_1": 800,
+                "severity_2": 6000,
+                "severity_3": 12000
+            }
+        },
+        "luxury": {
+            "hatchback": {
+                "severity_1": 1500,
+                "severity_2": 12000,
+                "severity_3": 25000
+            },
+            "sedan": {
+                "severity_1": 2000,
+                "severity_2": 15000,
+                "severity_3": 30000
+            },
+            "suv": {
+                "severity_1": 2500,
+                "severity_2": 18000,
+                "severity_3": 40000
+            }
+        }
+    },
+    "instrument_cluster": {
+        "normal": {
+            "hatchback": {
+                "severity_1": 3500,
+                "severity_2": 7000,
+                "severity_3": 12000
+            },
+            "sedan": {
+                "severity_1": 4000,
+                "severity_2": 8000,
+                "severity_3": 16000
+            },
+            "suv": {
+                "severity_1": 4500,
+                "severity_2": 10000,
+                "severity_3": 25000
+            }
+        },
+        "luxury": {
+            "hatchback": {
+                "severity_1": 5000,
+                "severity_2": 15000,
+                "severity_3": 45000
+            },
+            "sedan": {
+                "severity_1": 6000,
+                "severity_2": 20000,
+                "severity_3": 60000
+            },
+            "suv": {
+                "severity_1": 6500,
+                "severity_2": 22000,
+                "severity_3": 65000
+            }
+        }
+    }
+}
