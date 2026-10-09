@@ -3,7 +3,8 @@ Comparable-car search, fully in memory.
 
 At import, the Cars24 listings are loaded from the CSV and each listing becomes a vector of
 [age, log km, owners], standardised and weighted. A query then:
-  1. takes every listing of the same body type
+  1. takes every listing of the same class (luxury brand or not) and size (hatchback/sedan/suv);
+     luxury and normal cars are never mixed, and with too few in the pool no price is given
   2. scores each by Manhattan distance on [age, log km, owners], plus a penalty for each
      mismatch in model, make, fuel and transmission
   3. keeps the 15 nearest: exact matches come first, near-matches fill the rest
@@ -21,12 +22,14 @@ Run `python -m services.nearest_cars` to check accuracy on held-out listings.
 import numpy as np
 
 from config import CLEAN_DATA_FILE, LISTING_YEAR
+from constants.car import car_class, car_size
 from utils.file_parser import get_csv_file
 
 # Added to the distance when a listing differs from the car on that attribute.
 # Tuned on held-out listings (python -m services.nearest_cars), in the same units as the distance.
-MISMATCH_PENALTIES = {"name": 1.0, "make": 0.25, "fuel": 0.5, "transmission": 1.0}
+MISMATCH_PENALTIES = {"name": 1.0, "make": 0.25, "fuel": 0.5, "transmission": 1.0, "body_type": 0.5}
 K = 15
+MIN_POOL = 5  # fewer comparable cars of the same class and size than this: refuse to price
 # How much each dimension [age, log km, owners] counts in the distance, after standardising
 WEIGHTS = np.array([1.0, 0.6, 0.3])
 # 10th-90th percentile of the comparables: held-out tests put ~75% of real prices inside it
@@ -48,6 +51,8 @@ def build_index(data) -> dict:
         "km": data["km"].to_numpy(int),
         "owner": data["owner"].to_numpy(int),
         **{c: data[c].astype(str).str.upper().to_numpy() for c in TEXT_COLUMNS},
+        "car_class": data["make"].map(car_class).to_numpy(),
+        "size": data["body_type"].map(car_size).to_numpy(),
     }
 
 
@@ -58,9 +63,10 @@ def find_comparables(index: dict, car: dict, k=K) -> dict:
     Matching uses the car's age as of LISTING_YEAR, so a 2020 car is compared with 2020 listings
     (same point in their life when listed). The price is then aged to the car's age today.
     """
-    pool = np.flatnonzero(index["body_type"] == car["body_type"])
-    if len(pool) == 0:
-        pool = np.arange(len(index["price"]))
+    wanted_class, wanted_size = car_class(car["make"]), car_size(car["body_type"])
+    pool = np.flatnonzero((index["car_class"] == wanted_class) & (index["size"] == wanted_size))
+    if len(pool) < MIN_POOL:
+        return {"insufficient": True, "car_class": wanted_class, "size": wanted_size, "pool_size": len(pool)}
 
     listing_age = LISTING_YEAR - car["year"]
     query = (_raw_features(listing_age, car["km"], car["owner"]) - index["mean"]) / index["std"] * WEIGHTS
@@ -80,6 +86,8 @@ def find_comparables(index: dict, car: dict, k=K) -> dict:
         & (index["transmission"][nearest] == car["transmission"])
 
     return {
+        "insufficient": False,
+        "car_class": wanted_class,
         "exact_matches": int(exact.sum()),
         "rows": nearest,
         "distances": nearest_distances,
@@ -124,6 +132,8 @@ def evaluate(holdout_share=0.2, seed=7):
         car = {c: str(getattr(row, c)).upper() for c in TEXT_COLUMNS}
         car |= {"year": row.year, "age": LISTING_YEAR - row.year, "km": row.km, "owner": row.owner}
         result = find_comparables(index, car)
+        if result["insufficient"]:
+            continue
         errors.append(abs(result["estimate"] / row.price - 1))
         inside += result["low"] <= row.price <= result["high"]
     errors = np.array(errors)

@@ -18,6 +18,11 @@ def get_base_price(car, year, km_driven, owner_count, fuel, transmission, body_t
         "owner": owner_count,
     }
     result = find_comparables(INDEX, query)
+    if result["insufficient"]:
+        raise ValueError(
+            f"Not enough data to value a {result['car_class']} {result['size']}: the Cars24 data has only "
+            f"{result['pool_size']} such listing(s), and {result['car_class']} cars are only compared with each other."
+        )
 
     comparables = [
         {
@@ -39,13 +44,14 @@ def get_base_price(car, year, km_driven, owner_count, fuel, transmission, body_t
         "low": _round(result["low"]),
         "high": _round(result["high"]),
         "exact_matches": result["exact_matches"],
+        "car_class": result["car_class"],
         "comparables": comparables,
     }
 
 
 def get_valuation(car, year, km_driven, owner_count, fuel, transmission, body_type, damages, **_) -> dict:
     base = get_base_price(car, year, km_driven, owner_count, fuel, transmission, body_type)
-    repair_total, repair_breakdown = get_total_repair_cost(damages, body_type)
+    repair_total, repair_breakdown = get_total_repair_cost(damages, car, body_type)
     return {
         **base,
         "repair_total": repair_total,

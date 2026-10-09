@@ -133,6 +133,8 @@ if run:
             valuation = None if errors or (use_photos and not photo_result["accepted"]) else get_valuation(**request)
         st.session_state.result = {"request": request, "photos": photo_result, "errors": errors,
                                    "valuation": valuation, "previews": {u.name: u.getvalue() for u in uploads or []}}
+    except ValueError as e:  # e.g. not enough comparable cars
+        st.session_state.result = {"notice": str(e)}
     except Exception as e:  # LLM or network failures should show up in the page, not crash it
         st.session_state.result = {"failure": str(e)}
 
@@ -140,6 +142,9 @@ if run:
 result = st.session_state.get("result")
 if result:
     st.divider()
+    if "notice" in result:
+        st.warning(result["notice"])
+        st.stop()
     if "failure" in result:
         st.error(f"Something went wrong: {result['failure']}")
         st.stop()
@@ -186,8 +191,8 @@ if result:
     m2.metric("Market value in good condition", lakh(v["base_price"]))
     m3.metric("Repairs", inr(v["repair_total"]))
     st.markdown(f"Likely range **{inr(v['final_low'])} – {inr(v['final_high'])}**, "
-                f"from {len(v['comparables'])} comparable listings ({v['exact_matches']} exact matches on model, "
-                "fuel and transmission).")
+                f"from {len(v['comparables'])} comparable {v.get('car_class', '')} listings ({v['exact_matches']} exact "
+                "matches on model, fuel and transmission).")
 
     left, right = st.columns([1.6, 1], gap="large")
     with left:

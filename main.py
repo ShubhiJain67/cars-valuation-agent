@@ -68,7 +68,11 @@ def main():
             print(f"  - {error}")
         return
 
-    valuation = get_valuation(**request)
+    try:
+        valuation = get_valuation(**request)
+    except ValueError as e:
+        print(e)
+        return
     print(f"Base price: ₹{valuation['base_price']:,} (range ₹{valuation['low']:,} – ₹{valuation['high']:,})")
     print(f"  {len(valuation['comparables'])} comparables, {valuation['exact_matches']} exact matches (same model, fuel, transmission)")
     print("  nearest listings (listed in 2023; aged to your car's age):")
