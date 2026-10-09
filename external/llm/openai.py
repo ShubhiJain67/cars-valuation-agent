@@ -22,3 +22,12 @@ def web_search(messages: list[BaseMessage], model: str | None, output: type[T], 
     if result["parsing_error"]:
         raise result["parsing_error"]
     return result["parsed"]
+
+
+def structured_call(messages: list[BaseMessage], model: str | None, output: type[T], **model_options) -> T:
+    model = model or os.getenv("OPENAI_MODEL")
+    llm = init_chat_model(model, **model_options)
+    result = llm.with_structured_output(output, strict=True, include_raw=True).invoke(messages)
+    if result["parsing_error"]:
+        raise result["parsing_error"]
+    return result["parsed"]

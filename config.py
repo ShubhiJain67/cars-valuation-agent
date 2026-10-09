@@ -13,4 +13,6 @@ REPAIR_COSTS_FILE = DATA_DIR / "repair_costs.json"
 
 WEB_SEARCH_MODEL = "gpt-6-luna"
 
-FAISS_DIRECTORY = ROOT / "data" / "db" / "car_faiss_index"
+LISTING_YEAR = 2023
+
+VISION_MODEL = "gpt-6-luna"
