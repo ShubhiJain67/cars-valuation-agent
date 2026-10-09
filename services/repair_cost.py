@@ -1,15 +1,30 @@
-from utils.file_parser import get_csv_file
 from config import REPAIR_COSTS_FILE
+from constants.car import BODY_TYPES
+from constants.parts import PARTS
 from llm.repair_costs import search_repair_cost
 from models.repair_costs import RepairCosts
+from utils.file_parser import get_json_file, write_to_json
 
 
-__REPAIR_COST = get_csv_file(REPAIR_COSTS_FILE)
+__REPAIR_COST = get_json_file(REPAIR_COSTS_FILE)
 
-def get_repair_cost(part, car_type, severity):
+
+def get_repair_cost(part: str, body_type: str, severity: str) -> int:
     if part not in __REPAIR_COST:
-        __REPAIR_COST[part] = search_repair_cost(part).model_dump()
-    return __CAR_FACTS[car]
+        name, category, _ = PARTS[part]
+        costs = search_repair_cost(name, category)
+        if not is_repair_cost_valid(costs):
+            raise ValueError(f"repair costs for {part} failed validation")
+        __REPAIR_COST[part] = costs.model_dump()
+        write_to_json(REPAIR_COSTS_FILE, __REPAIR_COST)
+    car_class, size = BODY_TYPES[body_type]
+    return __REPAIR_COST[part][car_class][size][severity]
+
+
+def get_total_repair_cost(damages: dict[str, str], body_type: str) -> tuple[int, dict[str, int]]:
+    breakdown = {part: get_repair_cost(part, body_type, severity) for part, severity in damages.items()}
+    return sum(breakdown.values()), breakdown
+
 
 def is_repair_cost_valid(costs: RepairCosts) -> bool:
     for car_class in (costs.normal, costs.luxury):
@@ -23,4 +38,3 @@ def is_repair_cost_valid(costs: RepairCosts) -> bool:
         if getattr(costs.luxury, size).severity_2 < getattr(costs.normal, size).severity_2:
             return False
     return True
-

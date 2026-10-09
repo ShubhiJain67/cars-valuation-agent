@@ -22,10 +22,8 @@ def is_fact_valid(facts: CarFacts) -> bool:
         return False
     if facts.last_year is not None and facts.last_year < facts.first_year:
         return False
-    if not (2000 <= facts.first_year <= date.today().year):
+    if facts.first_year > date.today().year:
         return False
-    if facts.ex_showroom_min is None or facts.ex_showroom_max is None:
-        return False
-    if facts.ex_showroom_max < facts.ex_showroom_min:
+    if facts.ex_showroom_min and facts.ex_showroom_max and facts.ex_showroom_max < facts.ex_showroom_min:
         return False
     return True
